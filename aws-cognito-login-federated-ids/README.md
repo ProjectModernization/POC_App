@@ -7,8 +7,9 @@ AWS_COGNITO_IDENTITY_POOL_ID= Cognito identity pool ID <br/>
 ACCESS_KEY= AWS IAM user access key <br/>
 SECRET_KEY= AWS IAM user secret key <br/><br/>
 
-API calls:<br/>
-URL : [address]/api
+**API:**<br/>
+Webservice URL : [address]/api</br>
 POST: { token : id_token, provider : provider_name}<br>
-provider_name = 'google' or 'facebook'
+provider_name = 'google' or 'facebook'<br>
+See src/main/resources/static/**_index.html_** for examples. 
  
