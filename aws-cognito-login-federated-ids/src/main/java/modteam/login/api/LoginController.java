@@ -57,7 +57,7 @@ public class LoginController {
 					env.getProperty("SECRET_KEY"));
 
 			Regions region = Regions.US_WEST_2;
-			// initialize the cognito identity client
+			// initialize the cognito identity client 
 			AmazonCognitoIdentity identityClient = AmazonCognitoIdentityClientBuilder.standard().withRegion(region)
 					.withCredentials(new AWSStaticCredentialsProvider(awsCredentials)).build();
 			// send a get id request. This only needs to be executed the first
