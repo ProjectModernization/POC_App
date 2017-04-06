@@ -2,7 +2,7 @@
 
 Place **_application.properties_** file in resources folder. The following credentials are needed:
 <br/><br/>
-AWS_ACCOUNT_ID= <br/>
-AWS_COGNITO_IDENTITY_POOL_ID=<br/>
-ACCESS_KEY=<br/>
-SECRET_KEY=
+AWS_ACCOUNT_ID= <AWS account ID><br/>
+AWS_COGNITO_IDENTITY_POOL_ID=<Cognito identity pool ID><br/>
+ACCESS_KEY=<AWS IAM user access key><br/>
+SECRET_KEY=<AWS IAM user secret key>
