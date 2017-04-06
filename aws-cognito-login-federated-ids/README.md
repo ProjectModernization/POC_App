@@ -1,6 +1,6 @@
 # aws-cognito-login-federated-ids
 
-Place application.properties file in resources folder. The following credentials are needed:
+Place _application.properties_** file in resources folder. The following credentials are needed:
 <br/><br/>
 AWS_ACCOUNT_ID= <br/>
 AWS_COGNITO_IDENTITY_POOL_ID=<br/>
